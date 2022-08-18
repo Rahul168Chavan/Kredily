@@ -21,11 +21,10 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './*/*.js'
+        './Login/login.test.js'
     ],
     // Patterns to exclude.
     exclude: [
-        './Login/*.js',
         './Logout/*.js'
     ],
     //
@@ -60,7 +59,7 @@ exports.config = {
         browserName: 'chrome',
         'goog:chromeOptions': {
             w3c:true,
-            args:['--window-size=2500,1300'],
+            args:['--headless','--window-size=2500,1300'],
         },
         acceptInsecureCerts: true,
         
