@@ -21,11 +21,11 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './Login/login.test.js'
+        './Logout/logout.test.js'
     ],
     // Patterns to exclude.
     exclude: [
-        './Logout/*.js'
+        './Login/*.js'
     ],
     //
     // ============
